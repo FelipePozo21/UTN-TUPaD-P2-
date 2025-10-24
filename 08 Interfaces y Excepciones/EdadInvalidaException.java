@@ -1,0 +1,6 @@
+package tp8;
+public class EdadInvalidaException extends Exception{
+    public EdadInvalidaException(String error) {
+        super(error);
+    }
+}
